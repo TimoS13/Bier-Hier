@@ -42,7 +42,6 @@ section#foot{
     float: left;
 }
 
-
 article.salad, article.macar, article.pizza {
 	display:inline-block;
 	margin:0px;
@@ -52,26 +51,23 @@ article.salad a, article.macar a, article.pizza a {
 }
 
  /* Responsive Design */
-@media all and (min-width:1200px) {
+@media all and (min-width:1000px) {
     div.center { /*class=div.center, id=div#center */
-	    width:1200px;
+	    width:1000px;
 	    margin:auto;
 	}
 }
-@media all and (min-width:900px) {
+@media all and (min-width:600px) {
 	article.salad img, article.macar img, article.pizza img {
-		width:15%;
+		width:20%;
 		margin-right:30px;
 		float:right;
 	}
-	article.salad a, article.salad p, article.macar a, article.macar p, article.pizza a, article.pizza p {
-		padding-left:30px;
-		margin-right:10px;
-		width:60%;
-		float:left;
+	article {
+		width:90%;
+		margin:0;
+		display:inline-block;
 	}
-}
-@media all and (min-width:600px) {
 	ul {
 		background-color:rgb(45, 175, 255);
 		padding-left:20px;
@@ -86,8 +82,28 @@ article.salad a, article.macar a, article.pizza a {
 		display:inline-block;
 	}
 	article.salad img, article.macar img, article.pizza img {
-		width:15%;
+		width:30%;
+		margin-left:5%;
+		margin-right:2%;
+		float:left;
+	}
+	article.salad a, article.salad p, article.macar a, article.macar p, article.pizza a, article.pizza p {
+		padding-left:30px;
+		margin-right:10px;
+		width:80%;
+		float:left;
+	}
+}
+@media all and (min-width:800px) {
+	article {
+		width:100%;
+		margin:auto;
+		display:inline-block;
+	}
+	article.salad img, article.macar img, article.pizza img {
+		width:16%;
 		margin-right:30px;
+		margin-left:0;
 		float:right;
 	}
 	article.salad a, article.salad p, article.macar a, article.macar p, article.pizza a, article.pizza p {

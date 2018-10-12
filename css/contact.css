@@ -12,9 +12,7 @@ header {
 }
 
 #container{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
+    display:inline-block;
     margin: 20px;
 }
 
@@ -34,8 +32,9 @@ ul {
     margin:0px;
 }
 
-div#adregg{
+article#adregg{
     margin-left: 20px;
+	float:left;
 }
 input#verzend{
     margin-right: 210px;
@@ -60,20 +59,23 @@ section#foot{
 section#copy, section#foot a{
     color: white;
 }
-p{
-    margin-top: 40px;
-    float: right;
-    padding-right: 90px;
-}
-@media all and (min-width:1200px) {
+	
+@media all and (min-width:1000px) {
     div.center { /*class=div.center, id=div#center */
-        width:1200px;
+        width:1000px;
         margin:auto;
     }
 }
-@media all and (min-width:900px) {
-}
 @media all and (min-width:600px) {
+	article#adresgegevens{
+		padding-right:0%;
+		float:left;
+		width:70%;
+		padding-left:20px;
+	}
+	article#contact {
+		width:90%;
+	}
     ul {
         background-color: rgb(45, 175, 255);
         padding-left: 20px;
@@ -84,4 +86,18 @@ p{
         display: inline-block;
         border: none;
     }
+}
+@media all and (min-width:800px) {
+	article {
+		display:inline-block;
+	}
+	article#contact {
+		width:60%;
+	}
+	article#adresgegevens {
+		float:right;
+		width:35%;
+		padding-right:4%;
+		padding-left:0%;
+	}
 }

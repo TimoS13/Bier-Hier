@@ -66,7 +66,24 @@ section#copy, section#foot a{
         margin:auto;
     }
 }
+@media all and (min-width: 200px) {
+	nav {
+		background-color:rgb(45, 175, 255);
+	}
+	nav ul a img {
+		margin-right:25px;
+		margin-left:10px;
+		padding:21px;
+		width:0%;
+		height:0%;
+	}
+}
 @media all and (min-width:600px) {
+	nav ul a img {
+		margin-right:25px;
+		margin-left:10px;
+		padding:0px;
+	}
 	article#adresgegevens{
 		padding-right:0%;
 		float:left;

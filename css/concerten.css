@@ -1,4 +1,4 @@
-//Gemaakt door Kaedin Schouten. Laatste versie: 16/10/2018
+/*//Gemaakt door Kaedin Schouten. Laatste versie: 16/10/2018*/
 * {
     box-sizing:border-box;
     font-family:'Raleway', sans-serif;
@@ -37,6 +37,11 @@ article#plaatjes h1{
     padding-left: 27px;
 
 }
+
+a{
+    padding-right: 4%;
+}
+
 li {
     padding:10px;
     text-decoration: none;

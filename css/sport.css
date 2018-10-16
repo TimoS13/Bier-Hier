@@ -1,3 +1,5 @@
+/*Gemaakt door Timo Slond. Laatste versie:16/10/2018*/
+
 * {
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
@@ -108,6 +110,12 @@ section#foot{
     color: white;
     padding-left: 20px;
     float: left;
+}
+
+li#uitslag{
+    background-color: #ffffff;
+    color: darkblue;
+    text-underline-color: blue;
 }
 
 section#copy, section#foot a{

@@ -1,3 +1,5 @@
+/*Gemaakt door Timo Slond. Laatste versie:16/10/2018*/
+
 * {
     box-sizing:border-box;
     font-family:'Raleway', sans-serif;
@@ -59,6 +61,9 @@ li a {
     padding-left: 10px;
 }
 
+a{
+    padding-right: 4%;
+}
 
 ul {
     padding:0px;
@@ -80,10 +85,6 @@ section#copy, section#foot a{
 }
 
 /* Responsive Design */
-
-
-
-
 @media all and (min-width:780px) {
     ul {
         background-color: rgb(45, 175, 255);
@@ -111,8 +112,11 @@ section#copy, section#foot a{
     }
     #containerd{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
         padding:20px;
+    }
+    footer{
+        width: 100%
     }
 
 }

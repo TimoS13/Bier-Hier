@@ -24,16 +24,17 @@ article#groteplaatje img{
 article#plaatjes{
     display: inline-block;
     float: left;
-    }
+}
 article#plaatjes img{
     display: inline-block;
     margin: 30px;
     width: 20%;
     float: left;
     margin-top: 10px;
-    }
+}
 article#plaatjes h1{
     padding-left: 27px;
+
 }
 li {
     padding:10px;
@@ -83,6 +84,7 @@ table {
     }
 }
 @media all and (min-width:900px) {
+
 }
 @media all and (min-width:600px) {
     ul {
@@ -94,4 +96,5 @@ table {
         display:inline-block;
         border:none;
     }
+
 }

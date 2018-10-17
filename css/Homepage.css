@@ -17,9 +17,10 @@ header {
 }
 
 
+
 #container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr ;
     grid-gap:20px;
 }
 
@@ -27,9 +28,7 @@ nav {
     padding-bottom: 20px;
 }
 
-#h1 {
-    padding-left: 32px;
-}
+
 
 a {
     padding-right: 4%;
@@ -81,22 +80,17 @@ section#copy, section#foot a{
     color: white;
 }
 p{
-    margin-top: 40px;
+    margin-top: 20px;
     float: right;
-    padding-right: 90px;
+    padding-right: 46px;
 }
 /* Responsive Design */
-@media all and (min-width: 1000px) {
-    div.center { /*class=div.center, id=div#center */
-        width: 1000px;
-        margin: auto;
+@media all and (max-width: 600px){
+    #plaajes\ link{
+        display: none;
     }
 
 }
-
-@media all and (min-width: 800px) {
-}
-
 @media all and (min-width: 600px) {
     ul {
         background-color: rgb(45, 175, 255);
@@ -115,4 +109,32 @@ p{
         display: inline-block;
         border: none;
     }
+    #container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
+
+@media all and (min-width: 800px) {
+    #container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+ @media all and (min-width: 900px){
+     #container{
+         display:grid;
+         grid-template-columns: 1fr 1fr 1fr;
+     }
+
+ }
+
+@media all and (min-width: 1000px) {
+    div.center { /*class=div.center, id=div#center */
+        width: 1000px;
+        margin: auto;
+    }
+
+
+}
+
